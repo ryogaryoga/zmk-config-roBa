@@ -33,6 +33,11 @@
             bindings = <&kp TAB>;
             key-positions = <11 12>;
         };
+
+        at_sign {
+            bindings = <&kp AT>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
@@ -71,7 +76,7 @@
             bindings = <
 &kp KP_NUMBER_1   &kp KP_NUMBER_2    &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5                      &kp KP_NUMBER_6  &kp KP_NUMBER_7   &kp KP_NUMBER_8       &kp KP_NUMBER_9        &kp KP_NUMBER_0
 &kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp HASH         &kp DOLLAR       &kp PERCENT      &trans      &trans  &kp AMPERSAND    &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTRK
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp PERIOD       &trans      &trans  &kp LEFT_ARROW   &kp DOWN_ARROW    &kp UP_ARROW          &kp RIGHT_ARROW        &kp LS(INT_YEN)
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp PERIOD       &trans      &kp AT  &kp LEFT_ARROW   &kp DOWN_ARROW    &kp UP_ARROW          &kp RIGHT_ARROW        &kp LS(INT_YEN)
 &trans            &trans             &trans           &trans           &trans           &trans      &trans  &trans                                                                          &kp PIPE
             >;
         };
