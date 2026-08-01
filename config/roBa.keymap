@@ -38,6 +38,21 @@
             bindings = <&kp AT>;
             key-positions = <19 20>;
         };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <7 8>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <8 9>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <21 20>;
+        };
     };
 
     macros {
@@ -92,10 +107,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &kp TILDE  &kp MINUS
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &kp AT     &kp EQUAL
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans     &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                             &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
             >;
         };
 
