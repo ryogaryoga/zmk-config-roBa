@@ -58,6 +58,16 @@
             bindings = <&kp GRAVE>;
             key-positions = <18 19>;
         };
+
+        mouse_click_left {
+            bindings = <&mkp MB1>;
+            key-positions = <30 31>;
+        };
+
+        mouse_click_right {
+            bindings = <&mkp MB2>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
