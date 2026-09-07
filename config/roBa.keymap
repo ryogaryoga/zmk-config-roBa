@@ -95,10 +95,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R          &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F          &kp G        &mt LANGUAGE_1 LANGUAGE_2      &kp LANGUAGE_1     &kp H        &kp J  &kp K      &kp L    &lt 4 COLON
-&kp Z           &kp X         &kp C         &kp V          &kp B        &lt 6 ESCAPE                   &kp RIGHT_COMMAND  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &kp BACKSPACE  &lt 1 SPACE  &kp LEFT_CONTROL               &kp ENTER          &lt 1 SPACE                             &kp RIGHT_CONTROL
+&kp Q           &kp W         &kp E         &kp R          &kp T                                                 &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A           &kp S         &kp D         &kp F          &kp G        &kp LANG2             &lt 2 LANG1        &kp H        &kp J  &kp K      &kp L    &lt 4 COLON
+&kp Z           &kp X         &kp C         &kp V          &kp B        &lt 6 ESCAPE          &kp RIGHT_COMMAND  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &kp BACKSPACE  &lt 1 SPACE  &kp LEFT_CONTROL      &kp ENTER          &lt 1 SPACE                             &kp RIGHT_CONTROL
             >;
         };
 
@@ -113,10 +113,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                       &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans      &trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
+&kp F11  &kp F12  &trans  &trans  &trans   &trans      &trans  &kp F11  &kp F12  &trans  &trans  &trans
+&trans   &trans   &trans  &trans  &trans   &trans      &trans  &trans                            &trans
             >;
         };
 
